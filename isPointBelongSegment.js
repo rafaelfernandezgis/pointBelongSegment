@@ -3,6 +3,7 @@ function isPointBelongSegment(Lx1, Ly1, Lx2, Ly2, Px, Py) {
     var ac = Math.sqrt(Math.pow((Lx1 - Px), 2) + Math.pow((Ly1 - Py), 2));
     var bc = Math.sqrt(Math.pow((Lx2 - Px), 2) + Math.pow((Ly2 - Py), 2));
 
-    if ((ac + bc) == ab) return true;
-    else return false;
+    //if ((ac + bc) == ab) return true;
+    //else return false;
+    return true;
 }
